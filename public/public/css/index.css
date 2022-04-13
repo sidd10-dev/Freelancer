@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: black;
+}
+
+.navbar{
+    background-color: black;
+    font-size: 2rem;
+
+    top: 0;
+    height: 3rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+    overflow-y: hidden;
+}
+
+.navbar-link{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+.navbar-link:hover{
+    color: #f14836;
+    transition: 0.5s;
+}
+
+.input{
+    background-color: transparent;
+    margin: 2rem;
+
+    border: 3px solid white;
+    padding: 1rem;
+    width: 30rem;
+    color: white;
+
+    border-radius: 5rem;
+    resize: vertical;
+}
+
+.links{
+    display: flex;
+}
+
+.logo{
+    font-size: 3rem;
+}
+
+.head{
+    font-size: 3rem;
+    color: rgb(232, 124, 36);
+}
+
+.box{
+    background-color: black;
+    padding: 4rem;
+    width: 30vw;
+    height: auto;
+
+    border-radius: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.button{
+    width: 20rem;
+    border-radius: 5rem;
+
+    margin-top: 1.5rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    background-color: white;
+}
+
+/* Bidding */
+
+.min-bid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.max-bud{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.min-head{
+    margin-top: 5rem;
+    font-size: 5rem;
+    color: white;
+
+    text-align: center;
+}
+
+.bidders{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bidder-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* margin-top: 10rem; */
+    width: 40vw;
+    font-size: 2rem;
+
+    border: white solid;
+    border-radius: 5rem;
+    padding: 1rem;
+    margin: 6rem 0 3rem 0 ;
+}
+
+.bidder-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 40vw;
+    font-size: 2rem;
+
+    border: white solid;
+    border-radius: 5rem;
+    padding: 1rem;
+    margin: 0 0 3rem 0 ;
+}
+
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pay{
+    border-radius: 5rem;
+    width: auto;
+
+    background-color: greenyellow;
+    color: black;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+
+    padding: 0.25rem 1rem;
+}
+
+.pay:hover{
+    cursor: pointer;
+}
+
+.name{
+    margin-left: 1rem;
+}
+
+.input-box{
+    margin-top: 3rem;
+    width: 30rem;
+
+    align-items: center;
+}
+
+.j-head{
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+
+.j-desc{
+    width: 50vw;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+
+/* End of Bidding */

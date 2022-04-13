@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: grey;
+}
+
+.navbar{
+    background-color: black;
+    font-size: 2rem;
+
+    top: 0;
+    height: 3rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+    overflow-y: hidden;
+}
+
+.navbar-link{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.navbar-link:hover{
+    color: #f14836;
+    transition: 0.5s;
+}
+
+.input{
+    background-color: transparent;
+    margin: 2rem;
+
+    border: 3px solid white;
+    padding: 1rem;
+    width: 30rem;
+    color: white;
+
+    border-radius: 5rem;
+    resize: vertical;
+}
+
+.links{
+    display: flex;
+}
+
+.logo{
+    font-size: 3rem;
+}
+
+.box{
+    background-color: black;
+    padding: 4rem;
+    width: 30vw;
+    height: auto;
+
+    border-radius: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.button{
+    width: 20rem;
+    border-radius: 5rem;
+
+    margin-top: 1.5rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    background-color: white;
+}
+/* Profile */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: hidden;
+}
+
+.bg-img{
+    width: 70vw;
+    z-index: -1;
+}
+
+.profile-photo{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 10rem;
+
+    position: relative;
+
+    margin: -50rem 0 0 2rem;
+    z-index: 10;
+
+}
+
+.sub-container{
+    background-color: black;
+    width: 100vw;
+    height: auto;
+    
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: -8rem;
+    padding: 10rem 0 10rem 0;
+}
+
+.name{
+    position: relative;
+}
+
+.element-container{
+    display: grid;
+    grid-template-columns: auto auto; 
+    column-gap: 50rem;
+}
+
+.elements{
+    margin-top: 2rem;
+}
+
+.head{
+    font-size: 2rem;
+}
+
+.desc-1{
+    margin-top: 1rem;
+    width: 30rem;
+    font-size: 1.5rem;
+}
+
+.desc{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.project-links{
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    gap: 5rem 10rem;
+
+    margin-top: 7rem;
+}
+
+.link{
+    border: solid white;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin: 1rem;
+
+    width: 20rem;
+    height: 20rem;
+
+    font-size: 2rem;
+}
